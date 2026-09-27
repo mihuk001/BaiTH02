@@ -1,0 +1,2 @@
+a=input("nhap chuoi: ")
+print(f"{a.replace("Python", "AI")}")

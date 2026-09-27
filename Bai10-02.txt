@@ -1,0 +1,4 @@
+a=input("nhap danh sach: ")
+danh_sach=a.split()
+ds_dao_nguoc=danh_sach[::-1]
+print(f"danh sach dao nguoc: {ds_dao_nguoc}")

@@ -1,0 +1,7 @@
+a=input("nhap cac so (cach nhau bang dau cach): ")
+danh_sach= [int(i) for i in a.split()]
+ket_qua=[]
+for i in danh_sach:
+    if i not in ket_qua:
+        ket_qua.append(i)
+print(f"danh sach sau khi chinh sua: {ket_qua}")

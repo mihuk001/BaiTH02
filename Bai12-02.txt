@@ -1,0 +1,10 @@
+a=input("nhap danh sach so (cach nhau bang dau cach): ")
+danh_sach=[int(i) for i in a.split()]
+xuat_hien_nhieu_nhat= danh_sach[0]
+so_lan_lon_nhat= 0
+for i in danh_sach:
+    so_lan = danh_sach.count(i)
+    if so_lan > so_lan_lon_nhat:
+        so_lan_lon_nhat = so_lan
+        xuat_hien_nhieu_nhat = i
+print(f"so xuat hien nhieu nhat: {xuat_hien_nhieu_nhat} voi {so_lan_lon_nhat} lan xuat hien")

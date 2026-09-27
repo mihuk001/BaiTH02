@@ -1,0 +1,4 @@
+a=input("nhap danh sach so (cach nhau bang dau cach): ")
+danh_sach = [int(i) for i in a.split()]
+tong=sum(i for i in danh_sach if i % 2 == 0)
+print(f"tong cac so chan trong danh sach la: {tong}")

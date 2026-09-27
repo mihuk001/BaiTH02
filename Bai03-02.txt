@@ -1,0 +1,14 @@
+a=input("nhap chuoi: ")
+nguyen_am= ['a','e','i','o','u','A','E','I','O','U']
+so_nguyen_am=0
+so_phu_am=0
+khoang_trang=0
+for i in a :
+    if i in nguyen_am:
+        so_nguyen_am +=1
+    elif i == " ":
+        khoang_trang +=1
+    else:
+          so_phu_am +=1
+print(f"so nguyen am: {so_nguyen_am}")
+print(f"so phu am: {so_phu_am}")

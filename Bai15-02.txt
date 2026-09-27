@@ -1,0 +1,9 @@
+a=input("nhap doan van(khong viet hoa): ")
+dau_cau={'!', '?', '.',','}
+for dau_cau in a:
+    dv_sach= a.replace(dau_cau, "")
+dem_tu={}
+for tu in dv_sach.split():
+    dem_tu[tu] = dem_tu.get(tu, 0)+1
+sap_xep = sorted(dem_tu.items(),key=lambda x: x[1], reverse=True)
+print(f"tu sap xep theo so lan xuat hien: {sap_xep}")

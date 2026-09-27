@@ -1,0 +1,6 @@
+a= input("nhap chuoi: ")
+a_nguoc= a[::-1]
+if a == a_nguoc:
+    print("chuoi doi xung")
+else:
+    print("chuoi khong doi xung")

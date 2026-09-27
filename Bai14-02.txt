@@ -1,0 +1,4 @@
+a=input("nhap danh sach (cach nhau boi dau cach): ")
+ds_so=[int(i) for i in a.split()]
+ds_loc= [i for i in ds_so if i > 10]
+print("danh sach ket qua: ", ds_loc)

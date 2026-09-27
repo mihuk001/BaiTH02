@@ -1,0 +1,3 @@
+a=input("nhap chuoi: ")
+danh_sach_tu= a.split()
+print("danh sach tu: ", danh_sach_tu)

@@ -1,0 +1,3 @@
+a=input("nhap chuoi: ")
+ket_qua= a.title()
+print(f"{a} sau khi viet hoa -> {ket_qua}")

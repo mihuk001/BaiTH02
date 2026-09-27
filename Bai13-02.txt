@@ -1,0 +1,8 @@
+ds1=input("nhap danh sach so 1: ")
+ds2=input("nhap danh sach so 2: ")
+danh_sach1=[int(i) for i in ds1.split()]
+danh_sach2=[int(i) for i in ds2.split()]
+ds_gop= ds1 + ds2
+ds_sx= sorted(ds_gop)
+print(f"danh sach da gop va sap xep: {ds_sx}")
+

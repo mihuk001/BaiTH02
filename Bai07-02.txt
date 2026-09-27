@@ -1,0 +1,2 @@
+a=input("nhap chuoi: ")
+print(f"so luong tu: {len(a.split())}")
