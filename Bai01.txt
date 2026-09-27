@@ -1,0 +1,5 @@
+a=input("nhap chuoi: ")
+print(f"do dai chuoi: {len(a)}")
+print("so lan xuat hien cua tung ky tu:")
+for i in a:
+    print(f"ky tu '{i}': {a.count(i)} lan")
